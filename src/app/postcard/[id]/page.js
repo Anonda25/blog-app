@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 
+
 const singlecart = async ({ params }) => {
     const { id } = params;
     const data = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
